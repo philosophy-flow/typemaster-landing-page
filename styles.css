@@ -33,9 +33,16 @@ html {
   font-weight: 500;
 }
 
+body {
+  /* prevents margin collapsing */
+  padding: 0.1px;
+}
+
+
 h1, h2, h3 {
   font-weight: 900;
   text-transform: uppercase;
+  color: var(--dark-color);
 }
 
 
@@ -46,16 +53,13 @@ h1, h2, h3 {
   font-size: 1rem;
   font-weight: 700;
 
-  padding: 1rem 1.625rem;
+  padding: .625rem .875rem;
+
   border-radius: .5rem;
   border: none;
 
   cursor: pointer;
   transition: .3s;
-
-
-  /*temp*/
-  margin: 1rem;
 }
 
 .btn-1 {background-color: var(--orange-primary); color: var(--light-color)}
@@ -74,16 +78,61 @@ h1, h2, h3 {
 /* -------------------------------------------------------------------------- */
 
 /* HEADER */
+.header {
+  margin: 1.5rem 6.5% 4rem;
 
-
-
-
-
-
-
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* BANNER */
+.banner {
+  color: var(--grey-primary);
+  font-size: 1rem;
+}
+
+.banner-content-container {
+  margin: 0 6.5% 4rem;
+}
+
+.banner-main-txt {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.banner-sub-txt {
+  line-height: 1.625rem;
+  margin: 2rem 0;
+}
+
+
+.banner-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.banner-image-container {
+  overflow: hidden;
+
+  margin-bottom: 1.5rem;
+}
+
+.banner-image-container img {
+  display: block;
+  width: 100%;
+  border-radius: 1.25rem;
+  margin-left: 6.5%;
+}
+
+
+
+
+
 /* OVERVIEW */
 /* FEATURES */
 /* FOOTER */
