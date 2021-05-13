@@ -1,0 +1,68 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;700;900&display=swap');
+
+
+/* ---------------------------------------------------------- */
+/* GLOBAL---------------------------------------------------- */
+/* ---------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* COLORS */
+:root {
+  --orange-primary: #F16718;
+  --orange-secondary: #FF9B62;
+  --grey-primary: #7B8BAD;
+  --grey-secondary: #E8EFF2;
+  --dark-color: #162542;
+  --light-color: #FFFFFF;
+}
+
+
+/* TYPOGRAPHY */
+html {
+  height: 100%;
+
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+/* BUTTONS */
+.btn {
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  padding: 1rem 1.625rem;
+  border-radius: .5rem;
+  border: none;
+
+  cursor: pointer;
+  transition: .3s;
+
+
+  /*temp*/
+  margin: 1rem;
+}
+
+.btn-1 {background-color: var(--orange-primary); color: var(--light-color)}
+.btn-2 {background-color: var(--grey-secondary); color: var(--dark-color)}
+
+/* no hover on mobile/tablet */
+@media (hover: hover) {
+.btn-1:hover {background-color: var(--orange-secondary);}
+.btn-2:hover {background-color: var(--dark-color); color: var(--light-color);}
+}
