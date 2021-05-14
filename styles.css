@@ -274,6 +274,50 @@ p, span {
     margin-left: 9%;
     margin-right: -6.5%;
   }
+
+
+
+  /* OVERVIEW */
+  .overview {margin-bottom: 8.875rem;}
+
+  .overview-image-container {
+    margin-bottom: 4.5rem;
+    height: calc(57.94vw * .72);
+  }
+
+  .overview-img-1 {
+    background-image: url("./assets/tablet/image-phone-and-keyboard.jpg");
+    width: 27.8%;
+    margin-left: 5.08%;
+    margin-right: 3.9%;
+  }
+
+  .overview-img-2 {
+    background-image: url("./assets/tablet/image-glass-and-keyboard.jpg");
+    width: 57.94%;
+    margin-left: 0%;
+  }
+
+  .overview-content-container {
+    text-align: left;
+    color: var(--grey-primary);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  .overview-main-txt {
+    margin: 0;
+    margin-left: 5.08%;
+  }
+
+  .overview-sub-text {
+    margin: 0;
+    margin-left: 4.69%;
+    margin-right: 5.08%;
+  }
 }
 
 
