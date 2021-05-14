@@ -44,7 +44,7 @@ h1, h2, h3 {
   color: var(--dark-color);
 }
 
-p {
+p, span {
   color: var(--grey-primary);
   line-height: 1.625rem;
   font-size: 1rem;
@@ -92,11 +92,6 @@ p {
 
 
 /* BANNER */
-.banner {
-  color: var(--grey-primary);
-  font-size: 1rem;
-}
-
 .banner-content-container {
   margin: 0 6.5% 4rem;
 }
@@ -142,12 +137,13 @@ p {
 .overview-image-container {
   display: flex;
   margin-bottom: 4.6875rem;
+  height: calc(58.666vw * .85);
 }
 
 .overview-img-1 {
   background-image: url("./assets/mobile/image-phone-and-keyboard.jpg");
   background-color: var(--orange-primary);
-  background-size: contain;
+  background-size: cover;
   background-blend-mode: multiply;
 
   border-radius: 1.25rem;
@@ -156,8 +152,11 @@ p {
 }
 
 .overview-img-2 {
+  background-image: url("./assets/mobile/image-glass-and-keyboard.jpg");
+  background-size: cover;
   border-radius: 1.25rem;
   width: 58.666%;
+  height: auto;
   margin-left: 6.4%;
 }
 
@@ -204,15 +203,12 @@ p {
   margin-bottom: 3rem;
 }
 
-
-
 .feature-main-txt {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   line-height: 1.75rem;
   width: 58%;
 }
-
 
 .feature-sub-txt {
   width: 87.2%;
@@ -231,5 +227,25 @@ p {
 }
 
 
-/* SMALL SCREENS FIRST */
-/* FIRST BREAKPOINT --> 600px */
+
+/* -------------------------------------------------------------------------- */
+/* BREAKPOINTS -------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+/* xtra small screens */
+@media only screen and (max-width: 350px) {
+  .btn {font-size: .9rem;}
+
+  /* BANNER */
+  .banner-main-txt {font-size: 2.5rem; line-height: 2.5rem;}
+  .banner-btn-container {margin-right: 0;}
+}
+
+
+/* tablets */
+@media only screen and (max-width: 600px) {
+  /* HEADER */
+  .header {
+    margin: 2.5rem 6.5% 3.875rem;
+  }
+}
