@@ -318,6 +318,50 @@ p, span {
     margin-left: 4.69%;
     margin-right: 5.08%;
   }
+
+
+
+  /* FEATURES */
+  .features {
+    margin-bottom: 4.375rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5.1%;
+    padding-right: 12.76%;
+  }
+
+  .feature {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4.5rem;
+    text-align: left;
+    width: 45%;
+
+  }
+
+  .feature-icon-container {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: var(--orange-primary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2.5rem;
+  }
+
+  .feature-main-txt {
+    width: 75%;
+  }
+
+  .feature-sub-txt {
+    width: 100%;
+  }
 }
 
 
