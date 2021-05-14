@@ -124,7 +124,7 @@ p, span {
   height: calc(100vw * .889);
 
   border-radius: 1.25rem;
-  
+
   margin-left: 6.5%;
   margin-bottom: 1.5rem;
 }
@@ -244,9 +244,40 @@ p, span {
 
 
 /* tablets */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 650px) {
+  .btn {padding: 1rem;}
+
+
   /* HEADER */
   .header {
     margin: 2.5rem 6.5% 3.875rem;
   }
+
+
+  /* BANNER */
+  .banner {
+    display: flex;
+    align-items: center;
+    margin-left: 6.5%;
+    margin-bottom: 2.5rem;
+  }
+
+  .banner-content-container {margin: 0;width: 50%;}
+
+  .banner-btn-container {margin-right: 0;}
+
+  .banner-image-container {
+    background-image: url("./assets/tablet/image-keyboard.jpg");
+    width: 60%;
+    height: calc(60vw * .889);
+
+    margin-left: 9%;
+    margin-right: -6.5%;
+  }
+}
+
+
+
+/* desktop */
+@media only screen and (min-width: 1200px) {
 }
