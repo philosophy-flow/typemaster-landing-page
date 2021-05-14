@@ -38,7 +38,6 @@ body {
   padding: 0.1px;
 }
 
-
 h1, h2, h3 {
   font-weight: 900;
   text-transform: uppercase;
@@ -131,8 +130,55 @@ h1, h2, h3 {
 
 
 
-
-
 /* OVERVIEW */
+.overview {}
+
+.overview-image-container {
+  display: flex;
+  margin-bottom: 4.6875rem;
+}
+
+.overview-img-1 {
+  background-image: url("./assets/mobile/image-phone-and-keyboard.jpg");
+  background-color: var(--orange-primary);
+  background-size: contain;
+  background-blend-mode: multiply;
+
+  border-radius: 1.25rem;
+  width: 34.4%;
+  margin-left: -5.87%;
+}
+
+.overview-img-2 {
+  border-radius: 1.25rem;
+  width: 58.666%;
+  margin-left: 6.4%;
+}
+
+.overview-content-container {
+  text-align: center;
+  color: var(--grey-primary);
+}
+
+.overview-main-txt {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin: 0 16% 1.5rem;
+}
+
+.overview-sub-text {
+  line-height: 1.625rem;
+  margin: 0 6.4% 2rem;
+}
+
+
+
+
+
 /* FEATURES */
 /* FOOTER */
+
+
+
+/* SMALL SCREENS FIRST */
+/* FIRST BREAKPOINT --> 600px */
