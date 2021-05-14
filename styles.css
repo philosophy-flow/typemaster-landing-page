@@ -108,6 +108,7 @@ p, span {
 .banner-btn-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   align-items: center;
 
   text-transform: uppercase;
@@ -116,17 +117,17 @@ p, span {
 
 .banner-image-container {
   overflow: hidden;
+  background-image: url("./assets/mobile/image-keyboard.jpg");
+  background-size: cover;
 
+  width: 100%;
+  height: calc(100vw * .889);
+
+  border-radius: 1.25rem;
+  
+  margin-left: 6.5%;
   margin-bottom: 1.5rem;
 }
-
-.banner-image-container img {
-  display: block;
-  width: 100%;
-  border-radius: 1.25rem;
-  margin-left: 6.5%;
-}
-
 
 
 /* OVERVIEW */
