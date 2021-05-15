@@ -429,7 +429,7 @@ p, span {
     margin: 0;
     margin-right: 8.68vw;
 
-    height: calc(31vw * .927);
+    height: calc(31vw * 1.08);
   }
 
   .overview-img-1 {
