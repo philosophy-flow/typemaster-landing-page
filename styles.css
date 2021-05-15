@@ -36,6 +36,7 @@ html {
 body {
   /* prevents margin collapsing */
   padding: 0.1px;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
