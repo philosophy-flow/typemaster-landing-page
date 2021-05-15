@@ -140,6 +140,10 @@ p, span {
   margin-bottom: 6.9375rem;
 }
 
+.overview-square-container {
+  display: none;
+}
+
 .overview-image-container {
   display: flex;
   margin-bottom: 4.6875rem;
@@ -384,7 +388,6 @@ p, span {
     justify-content: space-between;
     align-items: center;
 
-    /* border: 1px solid red; */
     margin: 0 11.5vw 1.875rem;
     position: relative;
   }
@@ -413,4 +416,56 @@ p, span {
     top: 0;
     right: -20.5vw;
   }
+
+
+
+  /* OVERVIEW */
+  .overview {
+    margin: 0 11.5vw 10.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .overview-square-container {
+    display: block;
+
+    height: calc(18vw * .94);
+    width: 18vw;
+
+    position: absolute;
+    bottom: 0;
+    left: -20.5vw;
+  }
+
+  .overview-image-container {
+    margin: 0;
+    margin-right: 8.68vw;
+
+    height: calc(31vw * .927);
+  }
+
+  .overview-img-1 {
+    background-image: url("./assets/desktop/image-phone-and-keyboard.jpg");
+    width: 18vw;
+
+    margin: 0;
+    margin-right: 2.1vw;
+  }
+
+  .overview-img-2 {
+    background-image: url("./assets/desktop/image-glass-and-keyboard.jpg");
+    width: 31vw;
+
+    margin: 0;
+  }
+
+  .overview-content-container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .overview-main-txt {margin: 0; margin-bottom: 1.75rem;}
+  .overview-sub-text {margin: 0;}
 }
