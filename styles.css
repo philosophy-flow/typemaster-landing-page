@@ -129,6 +129,11 @@ p, span {
   margin-bottom: 1.5rem;
 }
 
+/* desktop only */
+.banner-square-container {
+  display: none;
+}
+
 
 /* OVERVIEW */
 .overview {
@@ -368,4 +373,44 @@ p, span {
 
 /* desktop */
 @media only screen and (min-width: 1200px) {
+  /* HEADER */
+  .header {
+    margin: 3.375rem 11.5vw 5.25rem;
+  }
+
+
+  /* BANNER */
+  .banner {
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid red; */
+    margin: 0 11.5vw 1.875rem;
+    position: relative;
+  }
+
+  .banner-content-container {width: 31vw;}
+
+  .banner-main-txt {font-size: 3.5rem; line-height: 3.5rem;}
+  .banner-sub-txt {font-size: 1.125rem; margin-bottom: 2.5rem;}
+
+
+  .banner-image-container {
+    background-image: url("./assets/desktop/image-keyboard.jpg");
+    margin: 0;
+    height: calc(37.5vw * .889);
+    width: 37.5vw;
+  }
+
+
+  .banner-square-container {
+    display: block;
+
+    height: calc(18vw * .94);
+    width: 18vw;
+
+    position: absolute;
+    top: 0;
+    right: -20.5vw;
+  }
 }
