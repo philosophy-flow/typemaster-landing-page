@@ -4,9 +4,9 @@
 
 ![screenshot](./assets/typemaster-landing-page.png)
 
-A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements. 
+A mobile first, fully responsive landing page for a product. Breakpoints were created to strategically compliment the content, and a combination of negative margins and absolute positioning techniques were utilized to position certain elements.
 
-[Live Demo](https://philosophy-flow.github.io/pod-request-landing-page/)
+[Live Demo](https://philosophy-flow.github.io/typemaster-landing-page/)
 
 ### Built With
 
