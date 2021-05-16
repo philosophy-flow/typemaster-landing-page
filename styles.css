@@ -93,6 +93,10 @@ p, span {
 
 
 /* BANNER */
+.banner {
+  overflow-x: hidden;
+}
+
 .banner-content-container {
   margin: 0 6.5% 4rem;
 }
